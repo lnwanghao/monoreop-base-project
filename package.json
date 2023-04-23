@@ -1,0 +1,21 @@
+{
+  "name": "monorepo-base-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "build": "rollup -c",
+    "changeset": "changeset",
+    "packages-version": "changeset version",
+    "publish": "changeset publish --registry=https://registry.npmjs.com/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "rollup": "2.78.0",
+    "rollup-plugin-typescript2": "0.34.1",
+    "typescript": "4.9.4"
+  }
+}
