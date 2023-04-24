@@ -2,6 +2,7 @@
   "name": "monorepo-base-project",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "rollup -c",
