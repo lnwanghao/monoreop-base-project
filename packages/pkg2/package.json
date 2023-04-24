@@ -6,7 +6,6 @@
   "publishConfig": {
     "main": "dist/index.js"
   },
-  "private": true,
   "files": [
     "dist"
   ],
