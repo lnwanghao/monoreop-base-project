@@ -14,5 +14,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "lnwanghao",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "web-vitals": "^3.3.1"
+  }
 }
