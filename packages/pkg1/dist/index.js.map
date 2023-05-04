@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sources":["../src/index.ts"],"sourcesContent":["export function pkg1(): any {\n  console.log(\"I am pkg1\");\n}\n"],"names":[],"mappings":";;;;;;WAAgB,IAAI,GAAA;EAClB,IAAA,OAAO,CAAC,GAAG,CAAC,WAAW,CAAC,CAAC;EAC3B;;;;;;;;;;"}
