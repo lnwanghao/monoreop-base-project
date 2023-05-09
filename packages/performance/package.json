@@ -1,0 +1,22 @@
+{
+  "name": "@whjs/performance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "publishConfig": {
+    "main": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "lnwanghao",
+  "license": "ISC",
+  "dependencies": {
+    "web-vitals": "^3.3.1"
+  }
+}
