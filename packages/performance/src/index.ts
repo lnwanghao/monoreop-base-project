@@ -1,5 +1,5 @@
 import { getWebVitals, getResource } from './core';
-import { EVENTTYPES } from './types';
+import { Callback, EVENTTYPES } from './types';
 import { _global, on } from './utils';
 
 export default class WebPerformance {
@@ -7,17 +7,16 @@ export default class WebPerformance {
   constructor() {
     this.type = EVENTTYPES.PERFORMANCE;
   }
-  core() {
+  getPerformanceDetail(callback: Callback) {
     getWebVitals((res: any) => {
       // name指标名称、rating 评级、value数值
-      const { name, rating, value } = res;
-      console.log(name, rating, value);
+      callback(res);
     });
 
     on(_global, 'load', function () {
       // 上报资源列表
       const res = getResource();
-      console.log(res);
+      callback({ name: 'resoure', value: res });
     });
   }
 }
