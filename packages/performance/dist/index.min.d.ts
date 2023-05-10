@@ -8,4 +8,4 @@ declare class WebPerformance {
     getPerformanceDetail(callback: Callback): void;
 }
 
-export { WebPerformance as default };
+export { WebPerformance };
