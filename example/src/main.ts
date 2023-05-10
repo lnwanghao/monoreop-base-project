@@ -2,7 +2,7 @@ import Vue from 'vue';
 import App from './App.vue';
 
 import './assets/main.css';
-import WebPerformance from '@whjs/performance';
+import { WebPerformance } from '@whjs/performance';
 
 const webPerformace = new WebPerformance();
 console.log(webPerformace);
