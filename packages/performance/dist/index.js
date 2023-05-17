@@ -174,8 +174,9 @@
       };
       return WebPerformance;
   }());
+  var webPerformance = new WebPerformance();
 
-  exports.WebPerformance = WebPerformance;
+  exports.webPerformance = webPerformance;
 
   Object.defineProperty(exports, '__esModule', { value: true });
 

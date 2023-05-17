@@ -172,6 +172,7 @@ var WebPerformance = /** @class */ (function () {
     };
     return WebPerformance;
 }());
+var webPerformance = new WebPerformance();
 
-exports.WebPerformance = WebPerformance;
+exports.webPerformance = webPerformance;
 //# sourceMappingURL=index.cjs.js.map

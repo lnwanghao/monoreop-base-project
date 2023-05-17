@@ -7,5 +7,6 @@ declare class WebPerformance {
     constructor();
     getPerformanceDetail(callback: Callback): void;
 }
+declare const webPerformance: WebPerformance;
 
-export { WebPerformance };
+export { webPerformance };

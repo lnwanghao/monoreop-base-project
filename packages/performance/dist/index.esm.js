@@ -168,6 +168,7 @@ var WebPerformance = /** @class */ (function () {
     };
     return WebPerformance;
 }());
+var webPerformance = new WebPerformance();
 
-export { WebPerformance };
+export { webPerformance };
 //# sourceMappingURL=index.esm.js.map
