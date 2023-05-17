@@ -2,7 +2,7 @@ import { getWebVitals, getResource } from './core';
 import { Callback, EVENTTYPES } from './types';
 import { _global, on } from './utils';
 
-export class WebPerformance {
+class WebPerformance {
   type: string;
   constructor() {
     this.type = EVENTTYPES.PERFORMANCE;
@@ -20,3 +20,6 @@ export class WebPerformance {
     });
   }
 }
+
+const webPerformance = new WebPerformance();
+export { webPerformance };
