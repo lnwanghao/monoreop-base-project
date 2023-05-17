@@ -7,7 +7,7 @@
     "preinstall": "npx only-allow pnpm",
     "postinstall": "husky install",
     "commit": "cz",
-    "build": "turbo run build --color ",
+    "build": "turbo run build --color",
     "changeset": "changeset",
     "packages-version": "changeset version",
     "publish": "changeset publish --registry=https://registry.npmjs.com/"
